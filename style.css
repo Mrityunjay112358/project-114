@@ -1,0 +1,28 @@
+
+
+
+
+h2{
+    font-size: 25px !important;
+}
+
+
+canvas{
+    box-shadow:6px,6px,50px, lightsalmon;
+}
+
+
+body{
+    animation-name: bodies;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+@keyframes bodies{
+    from{
+        background-color:teal;
+    }
+    to{
+        background-color:yellowgreen;
+    }
+}
